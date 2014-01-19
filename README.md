@@ -28,15 +28,6 @@ Included Assets
 
 ##Laravel Configurations
 
-Add the folowing lines to your app/config/app.php under providers:
-
-	'Codesleeve\AssetPipeline\AssetPipelineServiceProvider',
-	'Cartalyst\Sentry\SentryServiceProvider',
-
-And this one under Aliases
-
-	'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
-
 Run Sentry's migrations
 
 	php artisan migrate --package=cartalyst/sentry
