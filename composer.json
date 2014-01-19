@@ -6,9 +6,7 @@
 	"require": {
 		"laravel/framework": "4.1.*",
 		"codesleeve/asset-pipeline": "dev-master",
-		"cartalyst/sentry": "2.0.*",
-        "illuminate/database": "4.0.*",
-        "ircmaxell/password-compat": "1.0.*"
+		"cartalyst/sentry": "2.0.*"
 	},
 	"autoload": {
 		"classmap": [
