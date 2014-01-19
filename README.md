@@ -10,6 +10,7 @@ It includes:
 
 * Laravel 4
 * CodeSleeve / Asset-Pipeline
+* Catarlyst / Sentry 2
 
 Included Assets
 * jQuery 2.0.3
@@ -17,7 +18,11 @@ Included Assets
 
 Usage:
 
+Get Code
+
 	git clone https://github.com/BytenCode/laravel-starter.git
+
+Install Dependecies
 
 	composer update
 
