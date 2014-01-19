@@ -8,12 +8,19 @@
 </head>
 <body>
 	<section>
-		<div class="container" style="margin-top:100px;">
+		<div class="container">
 			<div class="jumbotron">
         		<h1>Byte&Code's Laravel Starter Site</h1>
-        		<p class="lead">Welcome to Byte&Code's Laravel Starter Site</p>
-        		<p>This starter site was developed to provider a better starting point to working on Laravel Projects.</p>
-        		<p>Hope you enjoy our work!! And feel free to contact us at <a href="//www.bytencode.com">Byte&Code's Site.</a></p>
+        		<div class="row">
+        			<div class="col-md-6">
+        				<img src="/assets/bnc-logo.png" alt="Byte&Code's Logo"/>
+        			</div>		
+        			<div class="col-md-6" >
+        				<p class="lead">Welcome to Byte&Code's Laravel Starter Site</p>
+        				<p>This starter site was developed to provider a better starting point to working on Laravel Projects.</p>
+        				<p>Hope you enjoy our work!! And feel free to contact us at <a href="//www.bytencode.com">Byte&Code's Site.</a></p>	
+        			</div>
+        		</div>
       		</div>
 		</div>
 	</section>

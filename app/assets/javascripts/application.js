@@ -10,5 +10,6 @@
 //
 // The available directives right now are require, require_directory, and require_tree
 //
-//= require jquery
-//= require_tree .
+//=require ./jquery.min
+//=require ./bootstrap.min
+//=require ./script

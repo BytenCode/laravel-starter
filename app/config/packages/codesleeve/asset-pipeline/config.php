@@ -131,9 +131,9 @@ return array(
 	| If you want to turn off caching completely you could use this CacheInterface
 	|
 	|	'cache' => new Codesleeve\AssetPipeline\Filters\FilesNotCached,
-	|
+	|	new Codesleeve\AssetPipeline\Filters\CacheEnvironmentFilter(new Assetic\Cache\FilesystemCache(App::make('path.storage') . '/cache/asset-pipeline'), App::environment())
 	*/
-	'cache' => new Codesleeve\AssetPipeline\Filters\CacheEnvironmentFilter(new Assetic\Cache\FilesystemCache(App::make('path.storage') . '/cache/asset-pipeline'), App::environment()),
+	'cache' => new Codesleeve\AssetPipeline\Filters\FilesNotCached,
 
 	/*
 	|--------------------------------------------------------------------------
